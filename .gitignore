@@ -1,0 +1,36 @@
+target/
+out/
+build/
+
+# Keep Maven Wrapper (do NOT ignore these)
+!.mvn/wrapper/*
+!mvnw
+!mvnw.cmd
+
+# IDEs
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.sts4-cache
+.apt_generated
+.factorypath
+
+# Editors
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+hs_err_pid*
+replay_pid*
+
+# Secrets / configs (keep examples instead)
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+.env.*.local
