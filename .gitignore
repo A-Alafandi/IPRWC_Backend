@@ -30,7 +30,7 @@ hs_err_pid*
 replay_pid*
 
 # Secrets / configs (keep examples instead)
-src/main/resources/application.properties
+#src/main/resources/application.properties
 src/main/resources/application.yml
 .env
 .env.*.local
