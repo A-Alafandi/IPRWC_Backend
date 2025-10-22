@@ -45,7 +45,7 @@ public class UserService {
         user.setPassword(passwordEncoder.encode(request.getPassword()));
         user.setFirstName(request.getFirstName());
         user.setLastName(request.getLastName());
-        user.setRole(UserRole.USER); // Default role
+        user.setRole(UserRole.USER);
         user.setAddress(request.getAddress());
         user.setCity(request.getCity());
         user.setState(request.getState());

@@ -41,6 +41,4 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
     @Query("SELECT SUM(o.totalAmount) FROM Order o WHERE o.status = :status")
     BigDecimal getTotalRevenueByStatus(OrderStatus status);
 
-    // Find recent orders (last N orders)
-    List<Order> findTop10ByOrderByCreatedAtDesc();
 }

@@ -46,7 +46,6 @@ public class JwtService {
         return buildToken(extraClaims, userDetails, jwtExpiration);
     }
 
-    // Build token - FIXED to use correct algorithm
     private String buildToken(
             Map<String, Object> extraClaims,
             UserDetails userDetails,
